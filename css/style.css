@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+img {
+  display: block; }
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block; }
+
+.center {
+  max-width: 1548px;
+  margin: auto; }
+
+.btn {
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 15px;
+  border-radius: 23px;
+  margin-top: 10px;
+  transition: 0.5s; }
+  .btn:hover {
+    background: #ec3a22;
+    margin-top: -1px; }
+
+.home-page {
+  background: url(../images/background.jpg) center center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  padding-top: 30px;
+  box-sizing: border-box; }
+  .home-page .left {
+    float: left; }
+    .home-page .left img {
+      height: 62px; }
+  .home-page ul {
+    float: right;
+    margin: 0;
+    padding: 0; }
+    .home-page ul li {
+      list-style: none;
+      float: left;
+      margin-left: 22px; }
+      .home-page ul li a {
+        display: block;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 400;
+        text-decoration: none;
+        height: 42px;
+        line-height: 42px; }
+        .home-page ul li a:hover {
+          color: #ec3a22; }
+      .home-page ul li .active {
+        border-bottom: 2px solid #ec3a22; }
+        .home-page ul li .active:hover {
+          cursor: default;
+          color: #fff; }
+  .home-page .hidden-menu {
+    float: right;
+    color: #fff;
+    font-size: 22px;
+    display: none; }
+  .home-page header {
+    position: absolute;
+    top: 40%;
+    left: 9%; }
+    .home-page header h2 {
+      margin: 0;
+      font-size: 48px;
+      color: #fff; }
+
+@media (max-width: 1548px) {
+  .home-page nav {
+    padding: 0 20px; } }
+@media (max-width: 690px) {
+  .home-page nav ul {
+    transition: 1s;
+    float: none;
+    position: absolute;
+    top: 75px;
+    left: -200%;
+    width: 100%; }
+    .home-page nav ul li {
+      float: none;
+      display: block;
+      margin-left: 0;
+      text-align: center; }
+  .home-page nav .shown-ul {
+    left: 0; }
+  .home-page nav .hidden-menu {
+    display: block; }
+  .home-page nav .hidden-color-changed {
+    color: #ed3d21; } }
+main {
+  position: relative; }
+  main .center {
+    position: absolute;
+    top: -110px;
+    left: 9%;
+    z-index: 100;
+    width: 100%;
+    background: #F1F1F1;
+    box-shadow: 0px 14px 20px 0px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0px 14px 20px 0px rgba(0, 0, 0, 0.8);
+    height: 100vh; }
+
+/*# sourceMappingURL=style.css.map */
