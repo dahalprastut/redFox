@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  background: url(../images/wolfbackground.png) center center; }
 
 img {
   display: block; }
@@ -40,7 +41,7 @@ img {
   .home-page .left {
     float: left; }
     .home-page .left img {
-      height: 62px; }
+      height: 82px; }
   .home-page ul {
     float: right;
     margin: 0;
@@ -69,17 +70,31 @@ img {
     color: #fff;
     font-size: 22px;
     display: none; }
-  .home-page header {
-    position: absolute;
-    top: 40%;
-    left: 9%; }
-    .home-page header h2 {
-      margin: 0;
-      font-size: 48px;
-      color: #fff; }
+  .home-page .outer-header {
+    width: 1548px;
+    margin: auto;
+    position: relative; }
+    .home-page .outer-header header {
+      position: absolute;
+      top: 258px;
+      left: 0; }
+      .home-page .outer-header header h2 {
+        margin: 0;
+        font-size: 48px;
+        color: #fff; }
+  .home-page .outer-wolf {
+    width: 1548px;
+    margin: auto;
+    position: relative; }
+    .home-page .outer-wolf .wolf {
+      position: absolute;
+      top: 320px;
+      right: 10%; }
+    .home-page .outer-wolf img {
+      height: 240px; }
 
 @media (max-width: 1548px) {
-  .home-page nav {
+  .home-page nav, .home-page .outer-header header {
     padding: 0 20px; } }
 @media (max-width: 690px) {
   .home-page nav ul {
@@ -101,11 +116,44 @@ img {
   .home-page nav .hidden-color-changed {
     color: #ed3d21; } }
 main .center {
-  background: #F1F1F1;
+  background: #eef1f2;
   box-shadow: 0px 14px 20px 0px rgba(0, 0, 0, 0.8);
   -webkit-box-shadow: 0px 14px 20px 0px rgba(0, 0, 0, 0.8);
-  height: 100vh;
-  margin-top: -110px; }
+  height: 90vh;
+  margin-top: -110px;
+  position: relative; }
+  main .center h2 {
+    position: absolute;
+    left: 44%;
+    top: 10%;
+    font-size: 42px;
+    font-weight: 700;
+    color: #333; }
+    main .center h2 span {
+      color: #ec3a22; }
+  main .center .left {
+    width: 50%;
+    height: 100vh;
+    border-right: 2px solid #ccc;
+    padding: 0 20px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center; }
+    main .center .left p {
+      margin: 275px 0 0 0;
+      font-size: 16px;
+      color: #727272; }
+    main .center .left .btn {
+      border-color: #333;
+      margin-top: 120px;
+      background: #ec3a22; }
+      main .center .left .btn:hover {
+        color: #333;
+        margin-top: 112px;
+        background: #eef1f2; }
+  main .center .right {
+    width: 50%;
+    float: right; }
 
 @media (max-width: 1548px) {
   main {

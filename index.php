@@ -16,7 +16,7 @@
         <nav>
             <div class="center clearfix">
                 <a href="#" class="left">
-                    <img src="images/FinalLogoHigh.png" alt="logo">
+                    <img src="images/logo.png" alt="logo">
                 </a>
                 <ul class="clearfix">
                     <li><a class="active" href="#">Home</a></li>
@@ -31,22 +31,39 @@
             </div>
         </nav>
 
-        <header>
-            <h2>EXPERIENCE THE <br>FUTURE</h2>
-            <a href="#" class="btn">Read More</a>
-        </header>
+        <div class="outer-header">
+            <header>
+                <h2>EXPERIENCE THE <br>FUTURE</h2>
+                <a href="#" class="btn">Read More</a>
+            </header>
+        </div>
+        <div class="outer-wolf">
+            <div class="wolf">
+                <img src="images/wolf.png" alt="wolf">
+            </div>
+        </div>
 
     </div>
 
     <!-- home page ends -->
 
+
+    <!-- main starts -->
     <main>
-        <div class="center">
-            sdafasdf
+        <div class="center clearfix">
+            <h2>ABOUT <span>US</span></h2>
+            <div class="left">
+                <p>RedFox Technology is multi purpose software development, web development, mobile application development, graphic design, digital marketing and event management company. We creates cost-effective solutions based on technical expertise to deliver the ultimate customer satisfaction while also helping each business to achieve their unique needs.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="right">
+                asdf
+            </div>
             
         </div>
     </main>
 
+    <!-- main ends -->
 
     <script src='js/main.js'>
     
