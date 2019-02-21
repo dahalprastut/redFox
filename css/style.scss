@@ -400,7 +400,7 @@ section , .team-parallax{
 
     > div{
         float: left;
-        width: 23%;
+        width: 25%;
         padding:0 20px;
         box-sizing: border-box;
         border-right: 2px dotted #ccc;
@@ -492,7 +492,7 @@ section , .team-parallax{
         }
         .container{
             > div{
-                width: 46%;
+                width: 50%;
                 border-right:0;
 
                 .btn{
@@ -565,7 +565,7 @@ section , .team-parallax{
                             float: left;
                             color: #fff;
                             font-size: 36px;
-                            margin-right: 15px;
+                            margin-left: 15px;
 
                             &:hover{
                                 color: $primary-color;
@@ -581,6 +581,7 @@ section , .team-parallax{
                             font-weight: 700;
                             font-size: 22px;
                             margin:10px 0 0 0px;
+                            font-family: arial;
                         }
 
                         h6{
@@ -614,3 +615,85 @@ section , .team-parallax{
         }
     }
 }
+
+
+// team ends
+
+
+// footer starts
+
+footer{
+    background: #2A2F33;
+    margin-top: -110px;
+    padding-top: 200px;
+    padding-bottom: 110px;
+    text-align: center;
+
+    h3{
+        margin: 0;
+        color: #fff;
+        letter-spacing: 2px;
+        font-size: 28px;
+
+        span{
+            display: block;
+            margin-top: 25px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+
+            small{
+                font-size: 18px;
+                color: $primary-color;
+            }
+        }
+    }
+    p{
+        margin: 25px 0 0 0;
+        color: #fff;
+    }
+
+    .bottom-links{
+        margin-top: 25px;
+        display: inline-block;
+        a{
+            float: left;
+            border: 2px solid #fff;
+            width: 30px;
+            height: 30px;
+            transform: rotate(20deg);
+            text-decoration: none;
+            color: #fff;
+            line-height: 30px;
+
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
+
+}
+
+
+@media(max-width:690px){
+    footer{
+        .center{
+          padding:0 20px;  
+        }
+    }
+}
+
+
+// footer ends
+
+// last starts
+
+.last{
+    background: $primary-color;
+    text-align: center;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+
+// last ends

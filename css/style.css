@@ -206,7 +206,7 @@ section, .team-parallax {
   margin-top: 55px; }
   .container > div {
     float: left;
-    width: 23%;
+    width: 25%;
     padding: 0 20px;
     box-sizing: border-box;
     border-right: 2px dotted #ccc;
@@ -254,7 +254,7 @@ section, .team-parallax {
   .services .center, .team .center {
     padding-bottom: 112px; }
   .services .container > div, .team .container > div {
-    width: 46%;
+    width: 50%;
     border-right: 0; }
     .services .container > div .btn, .team .container > div .btn {
       margin-bottom: 60px;
@@ -294,7 +294,7 @@ section, .team-parallax {
         float: left;
         color: #fff;
         font-size: 36px;
-        margin-right: 15px; }
+        margin-left: 15px; }
         .team .container > div .team-image .hidden-image-hover .links a:hover {
           color: #ec3a22; }
     .team .container > div .team-image .hidden-image-hover .name {
@@ -304,7 +304,8 @@ section, .team-parallax {
         color: #fff;
         font-weight: 700;
         font-size: 22px;
-        margin: 10px 0 0 0px; }
+        margin: 10px 0 0 0px;
+        font-family: arial; }
       .team .container > div .team-image .hidden-image-hover .name h6 {
         color: #fff;
         font-weight: 500;
@@ -318,5 +319,52 @@ section, .team-parallax {
 @media (max-width: 1020px) {
   .team .container > div {
     margin-bottom: 60px; } }
+footer {
+  background: #2A2F33;
+  margin-top: -110px;
+  padding-top: 200px;
+  padding-bottom: 110px;
+  text-align: center; }
+  footer h3 {
+    margin: 0;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 28px; }
+    footer h3 span {
+      display: block;
+      margin-top: 25px;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600; }
+      footer h3 span small {
+        font-size: 18px;
+        color: #ec3a22; }
+  footer p {
+    margin: 25px 0 0 0;
+    color: #fff; }
+  footer .bottom-links {
+    margin-top: 25px;
+    display: inline-block; }
+    footer .bottom-links a {
+      float: left;
+      border: 2px solid #fff;
+      width: 30px;
+      height: 30px;
+      transform: rotate(20deg);
+      text-decoration: none;
+      color: #fff;
+      line-height: 30px; }
+      footer .bottom-links a:hover {
+        color: #ec3a22; }
+
+@media (max-width: 690px) {
+  footer .center {
+    padding: 0 20px; } }
+.last {
+  background: #ec3a22;
+  text-align: center;
+  color: #fff;
+  height: 40px;
+  line-height: 40px; }
 
 /*# sourceMappingURL=style.css.map */

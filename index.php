@@ -249,6 +249,39 @@
         </div>
     </div>
 
+    <!-- team ends -->
+
+
+    <!-- footer starts -->
+
+    <footer>
+        <div class="center">
+            <h3>
+                KNOW US BETTER
+                <span>RED <small>FOX</small> PVT.LTD</span>
+
+            </h3>
+            <p>
+                <i class="fas fa-map-marker-alt"></i>  Chabail ,Kathmandu | <i class="fas fa-phone"></i>  9860810910 | <i class="fas fa-envelope"></i>  redfoxnepal4@gmail.com
+            </p>
+            <div class="bottom-links clearfix">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>     
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer ends -->
+
+    <!-- last starts -->
+    <div class="last">
+        <div class="center">
+            2019 Red Fox Technology Pvt.Ltd © All Rights Reserved
+        </div>
+    </div>
+    <!-- last ends -->
+
 
 
     <!-- script starts -->
