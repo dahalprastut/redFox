@@ -250,17 +250,17 @@ section, .team-parallax {
     background: #eef1f2;
     color: #333; }
 
-@media (max-width: 900px) {
-  .services .center {
+@media (max-width: 1020px) {
+  .services .center, .team .center {
     padding-bottom: 112px; }
-  .services .container > div {
+  .services .container > div, .team .container > div {
     width: 46%;
     border-right: 0; }
-    .services .container > div .btn {
+    .services .container > div .btn, .team .container > div .btn {
       margin-bottom: 60px;
       margin-top: 10px; } }
 @media (max-width: 690px) {
-  .services .container > div {
+  .services .container > div, .team .container > div {
     width: 100%; } }
 .team-parallax {
   background: url(../images/parallax.jpg) 0 0 fixed;
@@ -268,7 +268,7 @@ section, .team-parallax {
 
 .team .container > div .team-image {
   width: 100%;
-  height: 320px;
+  height: 360px;
   background: red;
   overflow: hidden;
   position: relative; }
@@ -285,10 +285,11 @@ section, .team-parallax {
     z-index: 900;
     top: 0;
     left: 0;
-    padding: 110px 0px 0 80px;
+    padding: 110px 0px 0 0px;
     box-sizing: border-box; }
     .team .container > div .team-image .hidden-image-hover .links {
-      text-align: center; }
+      text-align: center;
+      display: inline-block; }
       .team .container > div .team-image .hidden-image-hover .links a {
         float: left;
         color: #fff;
@@ -303,15 +304,19 @@ section, .team-parallax {
         color: #fff;
         font-weight: 700;
         font-size: 22px;
-        margin: 10px 0 0 -60px; }
+        margin: 10px 0 0 0px; }
       .team .container > div .team-image .hidden-image-hover .name h6 {
         color: #fff;
         font-weight: 500;
         font-size: 20px;
-        margin: 10px 0 0 -80px; }
+        margin: 10px 0 0 0px; }
   .team .container > div .team-image:hover .hidden-image-hover {
     display: block; }
 .team .container > div:last-child {
   border-right: 0; }
+
+@media (max-width: 1020px) {
+  .team .container > div {
+    margin-bottom: 60px; } }
 
 /*# sourceMappingURL=style.css.map */
