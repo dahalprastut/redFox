@@ -74,10 +74,109 @@
 
     <!-- main ends -->
 
+    <!-- section starts -->
+
 
     <section>
-        asdf
+        <div class="inner-text">
+            DO THE RIGHT THING
+        </div>
     </section>
+
+    <!-- section ends -->
+
+
+    <!-- services start -->
+
+    <div class="services">
+        <div class="center">
+            <h2>
+                OUR <span>SERVICES</span>
+            </h2>
+            <div class="container clearfix">
+                <div>
+                    <div class="upper-image">
+                        <a href="#"><i class="fas fa-laptop"></i></a> 
+                    </div>
+                    <div class="down-text">
+                        <h3>
+                            WEBSITE & MOBILE APPLICATION
+                        </h3>
+                        <p>
+                            We provide Web Services in customer choice frameworks like PHP, Laravel, WordPress, Node, Angular, Vue, etc.  We provide Application Development solutions with complete communication and transparency with the client
+                        </p>
+                    </div>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div>
+                    <div class="upper-image">
+                        <a href="#"><i class="fas fa-pencil-alt"></i></a> 
+                    </div>
+                    <div class="down-text">
+                        <h3>
+                            GRAPHICS & VISUAL DESIGN
+                        </h3>
+                        <p>
+                            We provide design understanding client business and research along with generating the idea. We provide random visual art offline. We design every materials as need of client like: banners, cards, letterhead, proposal, etc. we create a sample design with software 
+                        </p>
+                    </div>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div>
+                    <div class="upper-image">
+                        <a href="#"><i class="fas fa-cogs"></i></a> 
+                    </div>
+                    <div class="down-text">
+                        <h3>
+                            DEGITAL MEDIA MARKETING & BRAND MANAGEMENT
+                        </h3>
+                        <p>
+                            We provide Digital Media Marketing that helps your business boom to the next level. we have outstanding online marketing plan to stand out different in the crowd. We create brand identity systems, digital platforms and campaigns that engage today's consumers
+                        </p>
+                    </div>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div>
+                    <div class="upper-image">
+                        <a href="#"><i class="fas fa-camera-retro"></i></a> 
+                    </div>
+                    <div class="down-text">
+                        <h3>
+                            EVENT MANAGEMENT & PHOTOGRAPHY AND VIDEOGRAPHY
+                        </h3>
+                        <p>
+                            We provide full service event management firm based in pairing together our passion for business and events. We bring a fresh, unique approach to the event management industry. We provide professional Photographer and Videographer in any of your events.
+                        </p>
+                    </div>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services ends -->
+
+
+    <!-- team-parallax starts -->
+
+    <div class="team-parallax">
+        <div class="inner-text">
+            RED FOX IS ALWAYS WITH YOU 
+        </div>
+    </div>
+
+    <!-- team-parallax ends -->
+
+
+    <!-- team starts -->
+
+    <div class="team">
+        <div class="center">
+            <h2>
+                OUR <span>TEAM</span>
+            </h2>
+        </div>
+    </div>
 
 
 

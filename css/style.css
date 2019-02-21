@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: url(../images/wolfbackground.png) center center; }
+  background: url(../images/wbg2.png) center center; }
 
 img {
   display: block; }
@@ -113,7 +113,7 @@ img {
 @media (max-width: 330px) {
   .home-page .outer-header header h2 {
     font-size: 28px; } }
-main .center {
+main .center, .services .center, .team .center {
   position: relative;
   z-index: 10000;
   background: #eef1f2;
@@ -122,59 +122,60 @@ main .center {
   margin-top: -110px;
   padding-bottom: 172px;
   padding-top: 120px; }
-  main .center h2 {
+  main .center h2, .services .center h2, .team .center h2 {
     text-align: center;
     font-size: 42px;
     font-weight: 700;
     color: #333; }
-    main .center h2 span {
+    main .center h2 span, .services .center h2 span, .team .center h2 span {
       color: #ec3a22; }
-  main .center .cover {
-    margin-top: 55px; }
-  main .center .left {
-    max-width: 50%;
-    border-right: 2px solid #ccc;
-    padding: 0 20px;
-    box-sizing: border-box;
-    float: left;
-    text-align: center; }
-    main .center .left p {
-      font-size: 16px;
-      color: #727272; }
-    main .center .left .btn {
-      border-color: #333;
-      margin-top: 114px;
-      background: #ec3a22; }
-      main .center .left .btn:hover {
-        color: #333;
-        background: #eef1f2; }
-  main .center .right {
-    max-width: 50%;
-    float: right;
-    padding: 0 20px;
-    box-sizing: border-box; }
-    main .center .right .banner-carousel img {
-      width: 100%; }
-    main .center .right .banner-carousel .owl-nav button {
-      width: 48px;
-      height: 48px; }
-      main .center .right .banner-carousel .owl-nav button span {
-        font-size: 40px;
-        color: #fff;
-        font-weight: 400; }
-      main .center .right .banner-carousel .owl-nav button:focus {
-        outline: 0; }
-    main .center .right .banner-carousel .owl-nav .owl-prev {
-      position: absolute;
-      top: 50%;
-      left: 0; }
-    main .center .right .banner-carousel .owl-nav .owl-next {
-      position: absolute;
-      top: 50%;
-      right: 0; }
+
+main .center .cover {
+  margin-top: 55px; }
+main .center .left {
+  max-width: 50%;
+  border-right: 2px solid #ccc;
+  padding: 0 20px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center; }
+  main .center .left p {
+    font-size: 16px;
+    color: #727272; }
+  main .center .left .btn {
+    border-color: #333;
+    margin-top: 114px;
+    background: #ec3a22; }
+    main .center .left .btn:hover {
+      color: #333;
+      background: #eef1f2; }
+main .center .right {
+  max-width: 50%;
+  float: right;
+  padding: 0 20px;
+  box-sizing: border-box; }
+  main .center .right .banner-carousel img {
+    width: 100%; }
+  main .center .right .banner-carousel .owl-nav button {
+    width: 48px;
+    height: 48px; }
+    main .center .right .banner-carousel .owl-nav button span {
+      font-size: 40px;
+      color: #fff;
+      font-weight: 400; }
+    main .center .right .banner-carousel .owl-nav button:focus {
+      outline: 0; }
+  main .center .right .banner-carousel .owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0; }
+  main .center .right .banner-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0; }
 
 @media (max-width: 1548px) {
-  main {
+  main, .services {
     padding: 0 20px; } }
 @media (max-width: 1200px) {
   main .center .left .btn {
@@ -188,9 +189,80 @@ main .center {
     border-right: none; }
   main .center .right {
     display: none; } }
-section {
+section, .team-parallax {
   background: url(../images/parallax3.jpg) 0 0 fixed;
   margin-top: -110px;
-  height: 100vh; }
+  height: 50vh;
+  padding-top: 220px;
+  box-sizing: border-box; }
+  section .inner-text, .team-parallax .inner-text {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 3px 2px #000000;
+    font-weight: 700; }
+
+.services .container {
+  margin-top: 55px; }
+  .services .container > div {
+    float: left;
+    width: 23%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-right: 2px dotted #ccc;
+    text-align: center; }
+    .services .container > div .upper-image {
+      text-align: center;
+      font-size: 100px;
+      border-bottom: 2px solid #ccc;
+      transition: 0.5s;
+      -webkit-transition: 0.5s; }
+      .services .container > div .upper-image a {
+        filter: grayscale(50%);
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -webkit-filter: grayscale(50%); }
+      .services .container > div .upper-image:hover {
+        border-bottom: 2px solid #ec3a22; }
+        .services .container > div .upper-image:hover a {
+          filter: grayscale(0);
+          -webkit-filter: grayscale(0);
+          color: #ec3a22; }
+    .services .container > div .down-text {
+      margin-top: 30px;
+      text-align: center;
+      height: 260px;
+      overflow: hidden; }
+      .services .container > div .down-text h3 {
+        margin: 0;
+        color: #333; }
+      .services .container > div .down-text p {
+        margin: 30px 0 0 0;
+        color: #727272; }
+    .services .container > div:last-child {
+      border-right: 0; }
+  .services .container .btn {
+    border-color: #333;
+    background: #ec3a22;
+    margin-top: 50px; }
+    .services .container .btn:hover {
+      background: #eef1f2;
+      color: #333; }
+
+@media (max-width: 900px) {
+  .services .center {
+    padding-bottom: 112px; }
+  .services .container > div {
+    width: 46%;
+    border-right: 0; }
+    .services .container > div .btn {
+      margin-bottom: 60px;
+      margin-top: 10px; } }
+@media (max-width: 690px) {
+  .services .container > div {
+    width: 100%; } }
+.team-parallax {
+  background: url(../images/parallax.jpg) 0 0 fixed;
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

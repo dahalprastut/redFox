@@ -1,12 +1,13 @@
 // global start
 
 $primary-color:#ec3a22;
+$secondary-color:#eef1f2;
 $primary-text-color:#333;
 $secondary-text-color:#727272;
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background: url(../images/wolfbackground.png) center center;
+    background: url(../images/wbg2.png) center center;
 }
 
 img{
@@ -210,11 +211,12 @@ img{
 
 // main starts
 
-main{
+main, .services , .team{
+
     .center{
         position: relative;
         z-index: 10000;
-        background: #eef1f2;
+        background: $secondary-color;
         box-shadow:0px 14px 20px 0px rgba(0, 0, 0, 0.8);
         -webkit-box-shadow:0px 14px 20px 0px rgba(0, 0, 0, 0.8);
         margin-top: -110px;
@@ -232,6 +234,13 @@ main{
                 color: $primary-color;
             }
         }
+    }
+}
+
+
+main{
+    
+    .center{
 
         .cover{
             margin-top: 55px;
@@ -256,7 +265,7 @@ main{
                 background: $primary-color;
                 &:hover{
                     color: $primary-text-color;
-                    background: #eef1f2;
+                    background: $secondary-color;
                 }
             }
         }
@@ -311,10 +320,11 @@ main{
         }
 
     }
+    
 }
 
 @media(max-width:1548px){
-    main{
+    main , .services{
         padding: 0 20px;
       
     }
@@ -360,8 +370,149 @@ main{
 
 // section starts
 
-section{
+section , .team-parallax{
     background: url(../images/parallax3.jpg) 0 0 fixed;
     margin-top: -110px;
-    height: 100vh;
+    height: 50vh;
+    // position: relative;
+    padding-top: 220px;
+    box-sizing: border-box;
+
+    .inner-text{
+        color: #fff;
+        text-align: center;
+        font-size: 32px;
+        text-shadow: 3px 2px #000000;
+        font-weight: 700;
+
+    }
+}
+
+
+
+// section ends
+
+
+// services starts
+
+
+.services{
+    
+
+    .container{
+        margin-top: 55px;
+
+        > div{
+            float: left;
+            width: 23%;
+            padding:0 20px;
+            box-sizing: border-box;
+            border-right: 2px dotted #ccc;
+            text-align: center;
+
+            .upper-image{
+                text-align: center;
+                font-size: 100px;
+                border-bottom: 2px solid #ccc;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                
+                a{
+                    filter:grayscale(50%);
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -webkit-filter:grayscale(50%);
+
+                    
+                 
+                }
+
+                &:hover{
+                    border-bottom:2px solid $primary-color;
+                    a{
+                        filter:grayscale(0);
+                        -webkit-filter: grayscale(0);
+                        color: $primary-color;
+                    }
+                }
+            }
+
+            .down-text{
+                margin-top: 30px;
+                text-align: center;
+                height: 260px;
+                overflow: hidden;
+                
+                h3{
+                    
+                    margin: 0;
+                    color: $primary-text-color;
+                }
+
+                p{
+                    margin:30px 0 0 0;
+                    color: $secondary-text-color;
+                
+                }
+
+            }
+            
+            &:last-child{
+                border-right: 0;
+            }
+        }
+            
+        .btn{
+            border-color: $primary-text-color;
+            background: $primary-color;
+            margin-top: 50px;
+
+            &:hover{
+                background: $secondary-color;
+                color: $primary-text-color;
+            }
+        }
+    }
+}
+
+
+@media (max-width:900px){
+    .services{
+        .center{
+        padding-bottom: 112px;
+            
+        }
+        .container{
+            > div{
+                width: 46%;
+                border-right:0;
+
+                .btn{
+                    margin-bottom: 60px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:690px){
+    .services{
+        .container{
+            > div{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+// serivices ends
+
+
+// team starts
+
+.team-parallax{
+   background: url(../images/parallax.jpg) 0 0 fixed;
+    background-size: cover;
 }
