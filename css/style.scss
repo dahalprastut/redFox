@@ -395,20 +395,28 @@ section , .team-parallax{
 
 // services starts
 
+.container{
+    margin-top: 55px;
+
+    > div{
+        float: left;
+        width: 23%;
+        padding:0 20px;
+        box-sizing: border-box;
+        border-right: 2px dotted #ccc;
+        text-align: center;
+    }
+}
+
 
 .services{
     
 
     .container{
-        margin-top: 55px;
 
         > div{
-            float: left;
-            width: 23%;
-            padding:0 20px;
-            box-sizing: border-box;
-            border-right: 2px dotted #ccc;
-            text-align: center;
+      
+    
 
             .upper-image{
                 text-align: center;
@@ -510,9 +518,88 @@ section , .team-parallax{
 // serivices ends
 
 
-// team starts
+// team-parallax starts
 
 .team-parallax{
    background: url(../images/parallax.jpg) 0 0 fixed;
     background-size: cover;
+}
+
+// team-parallax ends
+
+
+// team starts
+
+.team{
+    .container{
+        > div{
+            .team-image{
+                width: 100%;
+                height: 320px;
+                background: red;
+                overflow:hidden;
+                position: relative;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .hidden-image-hover{
+                    display: none;
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                    background: #000;
+                    opacity: 0.6;
+                    z-index: 900;
+                    top:0;
+                    left: 0;
+                    padding:110px 0px 0 80px ;
+                    box-sizing: border-box;
+                    .links{
+                        text-align: center;
+                      
+                        a{
+                            float: left;
+                            color: #fff;
+                            font-size: 36px;
+                            margin-right: 15px;
+
+                            &:hover{
+                                color: $primary-color;
+                            }
+                        }
+                    }
+
+                    .name{
+                        margin-top: 10px;
+                        text-align: center;
+                        h4{
+                            color: #fff;
+                            font-weight: 700;
+                            font-size: 22px;
+                            margin:10px 0 0 -60px;
+                        }
+
+                        h6{
+                            color: #fff;
+                            font-weight: 500;
+                            font-size: 20px;
+                            margin:10px 0 0 -80px;
+                        }
+                    }
+                    
+                }
+
+              &:hover .hidden-image-hover{
+                  display: block;
+              }
+            }
+
+            &:last-child{
+                border-right: 0;
+            }
+        }
+    }
 }

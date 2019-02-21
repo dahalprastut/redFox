@@ -175,6 +175,77 @@
             <h2>
                 OUR <span>TEAM</span>
             </h2>
+            <div class="container clearfix">
+                <div>
+                    <div class="team-image">
+                        <img src="images/sushrit.jpg" alt="sushrit">
+                        <div class="hidden-image-hover">
+                            <div class="links clearfix">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-google"></i></a>
+                            </div>
+                            <div class="name">
+                                <h4>SUSHRIT POUDEL</h4>
+                                <h6>CEO</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="team-image">
+                        <img src="images/prastut.jpg" alt="sushrit">
+                        <div class="hidden-image-hover">
+                            <div class="links clearfix">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-google"></i></a>
+                            </div>
+                            <div class="name">
+                                <h4>PRASTUT DAHAL</h4>
+                                <h6>CTO</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="team-image">
+                        <img src="images/samar.jpg" alt="sushrit">
+                        <div class="hidden-image-hover">
+                            <div class="links clearfix">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-google"></i></a>
+                            </div>
+                            <div class="name">
+                                <h4>SAMAR ADHIKARI</h4>
+                                <h6>CBDO</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="team-image">
+                        <img src="images/rashik.jpg" alt="rakshik">
+                        <div class="hidden-image-hover">
+                            <div class="links clearfix">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-google"></i></a>
+                            </div>
+                            <div class="name">
+                                <h4>RASHIK SHRESTHA</h4>
+                                <h6>COO</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
         </div>
     </div>
 
@@ -204,8 +275,9 @@
             }
         }
         })
-        });
+        }); 
     </script>
+   
 
     
 </body>
