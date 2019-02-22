@@ -7,7 +7,8 @@ $secondary-text-color:#727272;
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background: url(../images/wbg2.png) center center;
+    background: url(../images/wbg2.png) center center ;
+    transition: all 0.2s linear;
 }
 
 img{
@@ -54,7 +55,7 @@ img{
     height: 100vh;
     width: 100%;
     background-size: cover;
-    padding-top: 30px;
+    // padding-top: 30px;
     box-sizing: border-box;
 
 
@@ -63,7 +64,7 @@ img{
     
 
         img{
-            height: 82px;
+            height: 52px;
         }
     }
 
@@ -83,8 +84,8 @@ img{
                 color: #fff;
                 font-weight: 400;
                 text-decoration: none;
-                height: 42px;
-                line-height: 42px;
+                height: 52px;
+                line-height: 52px;
 
                 &:hover{
                     color: $primary-color;
@@ -104,10 +105,11 @@ img{
     }
 
     .hidden-menu{
-        float: right;
+        float: left;
         color:#fff;
         font-size: 22px;
         display: none;
+        margin-top: 10px;
     }
 
     .outer-header{
@@ -148,14 +150,20 @@ img{
 @media(max-width:690px){
     .home-page{
         nav{
+
+            .left{
+                float: right;
+            }
             
             ul{
                 transition:1s;
                 float: none;
                 position: absolute;
-                top: 75px;
+                top: 50px;
                 left: -200%;
                 width: 100%;
+                background: #2A2F33;
+                z-index: 10000;
                 li{
                     float: none;
                     display: block;

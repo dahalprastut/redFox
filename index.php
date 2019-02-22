@@ -21,11 +21,11 @@
                     <img src="images/logo.png" alt="logo">
                 </a>
                 <ul class="clearfix">
-                    <li><a class="active" href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Services</a></li>
-                    <li><a href="#">Our Client</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a class="active home" href="#">Home</a></li>
+                    <li><a href="#" class="about-us">About Us</a></li>
+                    <li><a href="#" class="our-services">Our Services</a></li>
+                    <li><a href="#" class="our-team">Our Team</a></li>
+                    <li><a href="#" class="contact-us">Contact Us</a></li>
                 </ul>
                 <div class="hidden-menu">
                     <i class="fas fa-bars"></i>
@@ -46,7 +46,7 @@
 
 
     <!-- main starts -->
-    <main>
+    <main id="about-us">
         <div class="center">
             <h2>ABOUT <span>US</span></h2>
             <div class="cover clearfix">
@@ -285,9 +285,9 @@
 
 
     <!-- script starts -->
-    <script src='js/main.js'></script>
     <script src="owl/jquery.min.js"></script>
     <script src="owl/owl.carousel.min.js"></script>
+    <script src='./js/main.js'></script>
     <script>
         $(document).ready(function(){
         $('.banner-carousel').owlCarousel({
