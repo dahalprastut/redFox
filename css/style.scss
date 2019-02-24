@@ -425,13 +425,14 @@ section , .team-parallax{
         > div{
       
     
-
+        
             .upper-image{
                 text-align: center;
                 font-size: 100px;
                 border-bottom: 2px solid #ccc;
                 transition: 0.5s;
                 -webkit-transition: 0.5s;
+                display: none;
                 
                 a{
                     filter:grayscale(50%);

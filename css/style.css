@@ -222,7 +222,8 @@ section, .team-parallax {
   font-size: 100px;
   border-bottom: 2px solid #ccc;
   transition: 0.5s;
-  -webkit-transition: 0.5s; }
+  -webkit-transition: 0.5s;
+  display: none; }
   .services .container > div .upper-image a {
     filter: grayscale(50%);
     transition: 0.5s;

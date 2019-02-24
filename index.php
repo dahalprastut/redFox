@@ -21,7 +21,7 @@
                     <img src="images/logo.png" alt="logo">
                 </a>
                 <ul class="clearfix">
-                    <li><a class="active home" href="#">Home</a></li>
+                    <li><a class="home" href="#">Home</a></li>
                     <li><a href="#" class="about-us">About Us</a></li>
                     <li><a href="#" class="our-services">Our Services</a></li>
                     <li><a href="#" class="our-team">Our Team</a></li>
